@@ -7,7 +7,7 @@ ELang is my own take on a useless but fun programming language. It's very simple
 - [ ] C++
 - [x] Python
 - [x] JavaScript
-- [ ] Java
+- [x] Java
 - [x] C#
 - [ ] Ruby
 - [ ] Go
