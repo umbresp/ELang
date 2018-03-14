@@ -11,4 +11,4 @@ ELang is my own take on a useless but fun programming language. It's very simple
 - [x] C#
 - [ ] Ruby
 - [ ] Go
-- [ ] PHP
+- [x] PHP
