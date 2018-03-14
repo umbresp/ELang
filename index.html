@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>E Interpreter</title>
+    <script type = "text/javascript">
+      <!--
+      function run() {
+        var input = document.getElementById("input");
+        var code = input.value;
+        var output = document.getElementById("output");
+        var codes = code.split(" ");
+        var ret = "";
+        for (i = 0; i < codes.length; i++) {
+          var len = codes[i].length;
+          ret += String.fromCharCode(len);
+        }
+        output.value = ret;
+        console.log(ret);
+      }
+      // -->
+    </script>  
+  </head>
+  <body>
+    <form action = "">
+      <p>Enter your E code here.</p>
+      <input id = "input" type = "text" style = "width: 900px; height: 100px;" />
+      <p></p>
+      <input type = "button" value = "Compile" onclick = "run()" />
+      <p>Output</p>
+      <input id = "output" type = "text" style = "width: 900px; height: 100px;" />
+    </form>
+    <p>
+      A downloadable interpreter is now available! 
+    </p>
+    <ol>
+      <li>Click <a href = "">this link</a> to download the interpreter.</li>
+      <li>Once you have downloaded it, place it in the same directory as your E code.</li>
+      <li>Save youe E code in a file with the extension .e</li>
+      <li>Open a terminal in that directory and run: Compile [filename].e</li>
+      <li>If you have valid E code, that should produce its desired output!</li>
+    </ol>
+  </body>
+</html>
